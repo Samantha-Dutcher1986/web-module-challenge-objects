@@ -114,11 +114,12 @@ console.log(getLastReview);
     {name:"Lauren", rating: 4, feedback: "Absolutely love that they have karaoke Fridays! Food and drink selection is okay."}]
 */
 
- function getReviewByRating(reviews, 3) {
-    return array;
-  }
-  console.log(getReviewByRating);
-
+ //function getReviewByRating(reviews, 3) {
+    //return array;
+  //}
+  //console.log(getReviewByRating);
+getReviewByRating.length(3);
+console.log(getReviewByRating);
   
 /** STRETCH 2: Write a function called 'getLongestReview' that returns an array containing all reviews longer than 15 words. 
   
@@ -157,7 +158,9 @@ The returned object should have the following characteristics:
 */
 
 
-function carMaker(/* code here */) {
-    /* code here */
+function carMaker(odometer, distance) {
+    carMaker(2,50){
+      
+    }
     
 }
