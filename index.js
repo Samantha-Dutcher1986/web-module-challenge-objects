@@ -238,26 +238,3 @@ function carMaker(odometerArgument) {
   return car;
 }
 console.log("You better work", carMaker(50).drive(8));
-
-// // Stand-up Meeting Notes
-// // Another way to complete Task 1
-// const burger = {
-//   category: "Lunch",
-//   name: "burger",
-//   price: 5,
-// };
-// // discount:
-// function discount(customer) {
-//   if (customer === "teacher" || customer === "student") {
-//     return this.price * 0.75;
-//   } else if (customer === "public") {
-//     return this.price * 0.9;
-//   } else {
-//     return "unavailable";
-//   }
-// }
-
-// console.log(burger.discount("teacher"));
-// console.log(burger.discount("student"));
-// console.log(burger.discount("public"));
-// console.log(burger.discount("plumber"));
